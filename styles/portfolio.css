@@ -57,6 +57,10 @@
     text-align: center;
 }
 
+.item-center {
+    align-items: center;
+}
+
 /* Nav styles */
 nav {
     display: flex;
@@ -175,4 +179,54 @@ main section {
 .skill-description {
     font-size: 16px;
     color: #757575;
+}
+
+/*resume  section styles*/
+.resume-container-title {
+    margin-bottom: 113px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.experience-title {
+    font-size: 25;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.experience-sub-title {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.experience-description {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    text-align: left;
+}
+
+.resume-container hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #D1D1D1;
+}
+
+.resume-download-cv {
+    margin-top: 50px;
 }
