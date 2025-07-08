@@ -258,8 +258,7 @@ footer {
     margin-bottom: 30px;
 }
 
-.footer-icon img[alt="Facebook"],
-img[alt="Twitter"] {
+.footer-icon a {
     padding: 0px 24px 0px 0px;
 }
 
@@ -280,4 +279,8 @@ textarea {
     border-radius: 5px;
     border: none;
     margin-bottom: 24px;
+}
+
+.submit {
+    display: block;
 }
